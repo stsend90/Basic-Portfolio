@@ -1,10 +1,8 @@
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    height: 100%;
     background: url(../images/hotel-wallpaper.png);
 }
 
@@ -13,31 +11,31 @@ header {
     border-bottom: 1px solid #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
-    margin-top: 0px;
+    height: 61px;
+    padding-top: 2%;
 }
 
 .wrapper {
-    widows: 960px;
-    text-align: center;
+    width: 88%;
     margin: 20px;
-    overflow: auto;
-    clear: both;
+
 }
  #name {
      float: left;
-     padding: 20px;
+     padding: 22px;
+     margin-left: 12%;
      background-color: lightblue;
      color: white;
      font-weight: bold;
      font-family:Georgia, 'Times New Roman', Times, serif;
-     font-size: 20px;
+     font-size: 15px;
+     margin-top: -20px;
      
 }
  nav {
      float: right;
-     padding-top: 30px;
-     padding-bottom: 0px;
-     padding-right: 20px;
+     padding-right: 4%;
+
     
  }
 
@@ -47,11 +45,12 @@ header {
  }
 
 section {
-    margin: auto;
+    width: 75%;
     overflow: auto;
-    background-color: #ffffff;
-    border: 1 0 auto;
-    padding: 60px;
+    background-color: lightblue;
+    margin-left: 12%;
+    margin-top: 4%;
+
 }
 
 #about {
@@ -60,6 +59,12 @@ section {
     margin-left: 350px;
     margin-right: 350px;
 }
+h1 {
+    border-bottom: 1px solid black;
+    width: 91%;
+    margin-left: 4%;
+}
+
 p {
     float: left;
     padding: 10px;
@@ -69,20 +74,24 @@ p {
 }
 img {
     float:left;
-    width: 10%;
-    height: auto;
-
+    width: 14%;
+    padding-left: 4%;
+}
+.paragraph3 {
+    padding: 5%;
+    margin: 0;
+    margin-top: 12%;
 }
 
 
 footer {
     text-align: center;
-    background: #666666;
+    background: black;
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
-    height: 50px;
-    padding: 20px;
-    margin-top: 13%;
+    padding: 3%;
+    margin-top: 9%;
+    font-size: 20px;
 
     
 
