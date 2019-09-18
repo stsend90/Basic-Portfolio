@@ -14,14 +14,27 @@
             <div id="name">Tsendpurev (Jay) Saran</div>
             <nav>
                 <a href="index.html" class="bio">About</a>
-                <a href="contact.html" class="bio">Portfolio</a>
+                <a href="portfolio.html" class="bio">Portfolio</a>
                 <a href="contact.html" class="bio">Contact</a>
             </nav>
         </div>
     </header>
     <section>
         <h1>Contact</h1>
-
+        <div class="form">
+            <form>
+                <strong>Username</strong><br>
+                <input type="text" name="username" onfocus="if(this.value == 'John Smite') {this.value= '';}" onblur="if(this.value == '') {this.value = 'John Smith';}" value="John Smith">
+                <br>  
+                <strong>User password</strong><br>
+                <input type="email" name="psw" onfocus="if(this.value == 'example@gmail.com') { this.value = '';}" onblur="if(this.value == '') { this.value = 'example@gmail.com';}" value="example@gmail.com">
+                <br>
+                <strong>Message</strong><br>
+                <textarea name="message" name="msg"></textarea>
+                <input type="submit" id="submit" name="Submit">
+        
+            </form>
+        </div>
 
     </section>
     <footer>\_(^.~)_/</footer>
