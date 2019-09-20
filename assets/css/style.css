@@ -18,7 +18,7 @@ header {
 
 .wrapper {
     width: 88%;
-    /* margin: 20px; */
+    margin: 0;
 }
 
 #name {
@@ -40,7 +40,7 @@ nav {
  }
 
 .bio {
-     border-right: 1px solid #f0f0f0;
+     /* border-right: 1px solid #f0f0f0; */
      margin: 5px;
  }
 
@@ -61,6 +61,7 @@ section {
 h1 {
     border-bottom: 1px solid black;
     width: 91%;
+    margin: 3%;
     margin-left: 4%;
 }
 
@@ -94,7 +95,7 @@ footer {
     color: #ffffff;
     border-top: 8px solid #4aaaa5;
     padding: 3%;
-    margin-top: 9%;
+    margin-top: 10%;
     font-size: 20px;
 }
 
@@ -134,11 +135,15 @@ h5 {
 
 a {
     position: relative;
-    border: 1px solid #dddddd;
+    /* border: 1px solid #dddddd; */
     margin: 15px;
-    padding: 0;
-    overflow: auto;
+    margin-left: 45px;
+    /* padding: 0; */
+    /* overflow: auto; */
     float: left;
+}
+a:link {
+    text-decoration: none;
 }
 .portfolio p {
     position: absolute;
@@ -147,7 +152,7 @@ a {
     text-align: center;
     background-color: #4aaaa5;
     padding: 10px 0px 10px 0px;
-    color: red;
+    color: white;
 }
 
 
